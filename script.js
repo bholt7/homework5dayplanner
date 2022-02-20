@@ -10,7 +10,7 @@ setInterval(color, 60000);
 
 }
 
-
+// changing the colors based on past present or future.
 function color () {
 
     $(".time-block").each(function () {
@@ -35,6 +35,7 @@ function color () {
 
 }
 
+// trying to get data from local storage.
 
 $(".time-block").each(function () {
     var id = $(this).attr("id");
